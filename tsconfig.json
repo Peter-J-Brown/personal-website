@@ -2,12 +2,12 @@
     "compilerOptions": {
       "outDir": "./dist/",
       "noImplicitAny": true,
-      "module": "es6",
-      "target": "es2021",
+      "module": "esnext",
+      "target": "esnext",
       // "strict": true,
       "watch": true,
       "sourceMap": true,
-      "lib": ["dom", "esnext"],
+      "lib": ["dom", "es2018"],
       "jsx": "react",
       "allowJs": true,
       "moduleResolution": "node"
